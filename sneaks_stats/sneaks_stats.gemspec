@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "kz_stats/version"
+require "sneaks_stats/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "kz_stats"
-  spec.version       = KzStats::VERSION
+  spec.name          = "sneaks_stats"
+  spec.version       = SneaksStats::VERSION
   spec.authors       = ["'Arthur Song'"]
   spec.email         = ["'arth3rs0ng@gmail.com'"]
 

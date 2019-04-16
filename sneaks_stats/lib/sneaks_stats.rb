@@ -1,6 +1,6 @@
-require "kz_stats/version"
+require "sneaks_stats/version"
 
-module KzStats
+module SneaksStats
   class Error < StandardError; end
   # Your code goes here...
 end
